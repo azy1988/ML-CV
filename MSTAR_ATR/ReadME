@@ -1,0 +1,1 @@
+利用Pre-training + 数据增广 + Fine-tune，在MSTAR数据集上实现99.5%的识别率。
