@@ -27,6 +27,6 @@ for i = 1 : NumberOfFiles
     end
     Mag = fread(FID,ImgColumns*ImgRows,'float32','ieee-be');
     Img = reshape(Mag,[ImgColumns ImgRows]);
-    imwrite(Img,[SavePath FileName(1:NameLength-3) 'tif']); % 调整对比度后保存
+    imwrite(Img,[SavePath FileName(1:NameLength-3) 'bmp']); % 调整对比度后保存
     fclose(FID);
 end
