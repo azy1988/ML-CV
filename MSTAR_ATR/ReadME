@@ -1,3 +1,11 @@
 利用Pre-training + 数据增广 + Fine-tune，在MSTAR数据集上实现99.5%的识别率。
 
 机器配置：GTX960，TensorFlow-GPU 1.2.1，keras 2.1.2
+
+sar_recog.py：识别源代码
+
+MSTAR2JPG.m：解析原始数据
+
+seg_data.m与seg_data_demo.m：裁剪图像
+
+data.rar：裁剪后数据
