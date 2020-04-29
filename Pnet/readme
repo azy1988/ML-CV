@@ -1,1 +1,1 @@
-经典的prototypical-net网络，来自于https://www.kaggle.com/hsankesara/prototypical-net/
+经典的prototypical-net网络，实现对小样本的训练。来自于https://www.kaggle.com/hsankesara/prototypical-net/，在经典的手写字体上训练及验证。
